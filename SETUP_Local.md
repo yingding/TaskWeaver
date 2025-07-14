@@ -110,6 +110,12 @@ pull a sample of 10 data from titanic table from mssql db
 
 # 3. show all data analytics and chart
 you shall use all the data from titanic table, then show me the distribution of male and female in the titanic table, lastly generate me a barchart
+
+# 4. show the outlier
+analyse the all the data from titanic table, show me the outlier of ages regarding the survived categories and generate me a boxplot.
+
+# 5. find anomaly
+why is the age max over 200 in the char? Are there anomalies in the dataset?
 ```
 
 ## Remove branch
