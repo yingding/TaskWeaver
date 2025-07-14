@@ -4,3 +4,7 @@ sessions
 workspace
 config
 experience
+
+## where all the tokens exists
+**/sql_pull_mssql_data.yaml
+**/taskweaver_config.json
