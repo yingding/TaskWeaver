@@ -114,7 +114,7 @@ you shall use all the data from titanic table, then show me the distribution of 
 # 4. show the outlier
 analyse the all the data from titanic table, show me the outlier of ages regarding the survived categories and generate me a boxplot.
 
-# 5. find anomaly
+# 5. find anomalies in dataset
 why is the age max over 200 in the char? Are there anomalies in the dataset?
 ```
 
