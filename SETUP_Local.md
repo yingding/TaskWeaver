@@ -108,12 +108,8 @@ hi
 # 2. show titanic data
 pull a sample of 10 data from titanic table from mssql db
 
-# 3. show chart
-# show me the distribution of male and female in the titanic table, generate me a bar chart
-
 # 3. show all data analytics and chart
-show me the distribution of male and female in the titanic table, use all the data, generate me a bar chart
-
+you shall use all the data from titanic table, then show me the distribution of male and female in the titanic table, lastly generate me a barchart
 ```
 
 ## Remove branch
