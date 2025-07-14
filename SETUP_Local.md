@@ -84,13 +84,37 @@ cd /app/playground/UI/ && python -m chainlit run -h --host 0.0.0.0 --port 8181 a
 ```
 
 ## Run Locally on Windows Powershell
+Activate the venv first
+
 ```powershell
-cd ./playground/UI/ 
+# absolute path of requirements.txt to install for the python venv
+$PROJ_DIR="$env:USERPROFILE\Documents\VCS\democollections\ai-analytics-agent\playground\UI";
+# cd ./playground/UI/ 
 & "python" -m chainlit run -h --host 0.0.0.0 --port 8181 app.py
 
 # python -m chainlit run --host 0.0.0.0 --port 8181 /app/playground/UI/app.py
 ```
 
+## Local access app on Windows
+```url
+http://localhost:8181
+```
+
+New chat:
+```
+# 1. activate
+hi
+
+# 2. show titanic data
+pull a sample of 10 data from titanic table from mssql db
+
+# 3. show chart
+# show me the distribution of male and female in the titanic table, generate me a bar chart
+
+# 3. show all data analytics and chart
+show me the distribution of male and female in the titanic table, use all the data, generate me a bar chart
+
+```
 
 ## Remove branch
 ```shell

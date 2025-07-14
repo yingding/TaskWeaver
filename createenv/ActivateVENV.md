@@ -25,6 +25,24 @@ Invoke-Expression "(Get-Command python).Source";
 deactivate
 ```
 
+## Run Locally on Windows Powershell
+Use the 
+* twagent3.11pip venv
+* agentdemo branch
+* allow python network access
+
+Activate the venv first
+
+```powershell
+# absolute path of requirements.txt to install for the python venv
+$PROJ_DIR="$env:USERPROFILE\Documents\VCS\democollections\ai-analytics-agent\playground\UI";
+cd $PROJ_DIR;
+# cd ./playground/UI/ 
+& "python" -m chainlit run -h --host 0.0.0.0 --port 8181 app.py
+
+# python -m chainlit run --host 0.0.0.0 --port 8181 /app/playground/UI/app.py
+```
+
 ## (optional) generate requirements.txt from venv
 ```powershell
 & "python" -m pip freeze > requirements_$(Get-Date -Format "yyyy-MM-dd_HH-mm-ss").txt
